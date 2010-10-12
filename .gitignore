@@ -1,0 +1,9 @@
+/logs
+/.idea
+target/
+.scala_dependencies
+*.hprof
+*.iml
+.DS_Store
+zk-tmp/
+tmp

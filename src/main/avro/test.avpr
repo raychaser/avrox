@@ -1,0 +1,23 @@
+{
+  "namespace": "org.digitalresearch.avrox",
+  "protocol": "TestProtocol",
+  "types": [
+            { "name": "TestRecord", "type": "record",
+              "fields": [
+                         { "name": "testString", "type": "string" },
+                         { "name": "testInt", "type": "int" }
+                        ]
+            }
+           ],
+
+  "messages":
+              {
+                "test": {
+                                    "request":  [
+                                                  { "name": "test", "type": "TestRecord" }
+                                                ],
+                                    "response": "null",
+                                    "one-way": true
+                        }
+              }
+}
